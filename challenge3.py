@@ -4,18 +4,22 @@
 Challenge 3 - Loops:
 Loops can be used to write your own wait statements.  They can also be used to iteration through a list of items.
 
-For this challenge, go to copart and print a list of all the “Popular Items” of vehicle Make/Models on the home page and the URL/href for each type.  This list can dynamically change depending on what is authored by the content creator but using a loop will make sure that everything will be displayed regardless of the list size.
+For this challenge, go to copart and print a list of all the “Popular Items” of vehicle Make/Models on the home page and
+the URL/href for each type.  This list can dynamically change depending on what is authored by the content creator but
+ using a loop will make sure that everything will be displayed regardless of the list size.
 
 Author: Abhishek Chauhan
-email: abhishek.chauhan@dish.com
+date: Dec 12, 2019
 
 '''
 
 import unittest
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 POPULAR_ITEMS = "//*[@id=\"tabTrending\"]/div[1]"
 POPULAR_CATEGORIES = "//*[@id=\"tabTrending\"]/div[3]"
+CHILD = ".//*"
 
 
 class Challenge3(unittest.TestCase):
@@ -31,16 +35,16 @@ class Challenge3(unittest.TestCase):
 
         print "========== POPULAR ITEMS ==========="
         popular_elemets = self.driver.find_element_by_xpath(POPULAR_ITEMS)
-        child_element = popular_elemets.find_elements_by_xpath('.//*')
+        child_element = popular_elemets.find_elements_by_xpath(CHILD)
         for child in child_element:
-            if child.get_attribute("href") != None:
+            if child.get_attribute("href") is not None:
                 print ("Text = %s and Url = %s " % (child.text, child.get_attribute("href")))
 
         print "\n======== POPULAR CATEGORIES ========"
         popular_elemets = self.driver.find_element_by_xpath(POPULAR_CATEGORIES)
-        child_element = popular_elemets.find_elements_by_xpath('.//*')
+        child_element = popular_elemets.find_elements_by_xpath(CHILD)
         for child in child_element:
-            if child.get_attribute("href") != None:
+            if child.get_attribute("href") is not None:
                 print ("Text = %s and Url = %s " % (child.text, child.get_attribute("href")))
 
 
