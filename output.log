@@ -1,0 +1,55 @@
+Testing started at 11:37 AM ...
+/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/_jb_unittest_runner.py" --target challenge3.Challenge3.test_challenge3
+Launching unittests with arguments python -m unittest challenge3.Challenge3.test_challenge3 in /Users/abhishek/mywork/STG/challenges/challenge3
+
+
+Process finished with exit code 0
+========== POPULAR ITEMS ===========
+Text = ALTIMA and Url = https://www.copart.com/popular/model/altima 
+Text = SONATA and Url = https://www.copart.com/popular/model/sonata 
+Text = COROLLA and Url = https://www.copart.com/popular/model/corolla 
+Text = CAMRY and Url = https://www.copart.com/popular/model/camry 
+Text = ACCORD EX and Url = https://www.copart.com/popular/model/accord-ex 
+Text = SILVERADO and Url = https://www.copart.com/popular/model/silverado 
+Text = ODYSSEY EX and Url = https://www.copart.com/popular/model/odyssey-ex 
+Text = SENTRA and Url = https://www.copart.com/popular/model/sentra 
+Text = CHARGER and Url = https://www.copart.com/popular/model/charger 
+Text = S60 and Url = https://www.copart.com/popular/model/s60 
+Text = TOYOTA and Url = https://www.copart.com/popular/make/toyota 
+Text = HONDA and Url = https://www.copart.com/popular/make/honda 
+Text = FORD and Url = https://www.copart.com/popular/make/ford 
+Text = NISSAN and Url = https://www.copart.com/popular/make/nissan 
+Text = CHEVROLET and Url = https://www.copart.com/popular/make/chevrolet 
+Text = HYUNDAI and Url = https://www.copart.com/popular/make/hyundai 
+Text = VOLVO and Url = https://www.copart.com/popular/make/volvo 
+Text = DODGE and Url = https://www.copart.com/popular/make/dodge 
+Text = KIA and Url = https://www.copart.com/popular/make/kia 
+Text = BMW and Url = https://www.copart.com/popular/make/bmw 
+
+======== POPULAR CATEGORIES ========
+Text = Buy It Now and Url = https://www.copart.com/popular/category/buy-it-now?intcmp=web_homepage_categories_buyitnow_public_en 
+Text = Exotics and Url = https://www.copart.com/popular/category/exotics?intcmp=web_homepage_categories_exotics_public_en 
+Text = Classics and Url = https://www.copart.com/popular/category/classics?intcmp=web_homepage_categories_classics_public_en 
+Text = Automobiles and Url = https://www.copart.com/popular/category/automobiles?intcmp=web_homepage_categories_automobiles_public_en 
+Text = Pickup Trucks and Url = https://www.copart.com/popular/category/pickup-trucks?intcmp=web_homepage_categories_pickuptrucks_public_en 
+Text = Run and Drive and Url = https://www.copart.com/popular/category/run-and-drive?intcmp=web_homepage_categories_runanddrive_public_en 
+Text = No License Required and Url = https://www.copart.com/popular/category/no-license-required?intcmp=web_homepage_categories_nolicenserequired_public_en 
+Text = Motorcycles and Url = https://www.copart.com/popular/category/motorcycles?intcmp=web_homepage_categories_motorcycles_public_en 
+Text = Boats and Url = https://www.copart.com/popular/category/boats?intcmp=web_homepage_categories_boats_public_en 
+Text = RVs and Url = https://www.copart.com/popular/category/rvs?intcmp=web_homepage_categories_rvs_public_en 
+Text = ATVs and Url = https://www.copart.com/popular/category/atvs?intcmp=web_homepage_categories_atvs_public_en 
+Text = Heavy Duty Trucks and Url = https://www.copart.com/popular/category/heavy-duty-trucks?intcmp=web_homepage_categories_heavydutytrucks_public_en 
+Text = Industrial Equipment and Url = https://www.copart.com/popular/category/industrial-equipment?intcmp=web_homepage_categories_industrialequipment_public_en 
+Text = Recovered Thefts and Url = https://www.copart.com/popular/category/recovered-thefts?intcmp=web_homepage_categories_recoveredthefts_public_en 
+Text = Trailers and Url = https://www.copart.com/popular/category/trailers?intcmp=web_homepage_categories_trailers_public_en 
+Text = Medium Duty/Box Trucks and Url = https://www.copart.com/popular/category/medium-duty-box-trucks?intcmp=web_homepage_categories_boxtrucks_public_en 
+Text = Hybrid Vehicles and Url = https://www.copart.com/popular/category/hybrid-vehicles?intcmp=web_homepage_categories_hybridvehicles_public_en 
+Text = Clean Title and Url = https://www.copart.com/popular/category/clean-title?intcmp=web_homepage_categories_cleantitle_public_en 
+Text = Rentals and Url = https://www.copart.com/popular/category/rentals?intcmp=web_homepage_categories_rentals_public_en 
+Text = More... and Url = https://www.copart.com/vehicleFinder?intcmp=web_homepage_categories_vehiclefinder_public_en 
+
+
+Ran 1 test in 12.284s
+
+OK
+
